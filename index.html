@@ -69,59 +69,85 @@
     color: #000000;
     width: 130px;
 }
-#about .img-about {
-  width: 100%;
-  z-index: 0;
-  position: relative; }
-  #about .img-about .img {
-    display: block;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    -webkit-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
-    -moz-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
-    box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33); }
+
+#about ul{
+position: relative;
+}
 
 #about ul.about-info {
   display: inline-block;
   padding: 0;
   margin: 0;
-  width: 100%; }
-  #about ul.about-info li {
-    list-style: none;
-    margin-bottom: 10px; }
-    #about ul.about-info li span {
-      width: calc(100% - 130px);
-      font-weight: 600;
-      color: #61a8c9; }
-      #about ul.about-info li span:first-child {
-        font-weight: 600;
-        color: #000000;
-        width: 130px; }
+  width: 100%; 
+  border-left: 1px solid #3a677c !important;
+  padding-left: 15px !important;
+  padding-top: 20px !important;
+}
+.about-info::before{
+content: "";
+position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 50px;
+left: -9px;
+top: 0;
+background: #fff;
+border: 2px solid #3a677c;
+}
+.about-info::after{
+content: "";
+position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 50px;
+left: -9px;
+background: #fff;
+border: 2px solid #3a677c;
+}
 
-#about .my-interest {
-  margin-top: 30px; }
-  #about .my-interest .interest-wrap {
-    width: 25%;
-    border-left: 2px solid skyblue;
-    padding-left: 10px; }
-    @media (max-width: 1199.98px) {
-      #about .my-interest .interest-wrap {
-        width: 50%;
-        float: left;
-        margin-bottom: 10px; } }
-    #about .my-interest .interest-wrap .icon {
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      background: rgb(40, 146, 189); }
-      #about .my-interest .interest-wrap .icon span {
-        color: #000000;
-        font-size: 18px; }
-    #about .my-interest .interest-wrap .text {
-      font-weight: 600;
-      color: #000000;
-      padding-left: 5px; }
+#about ul.about-info li {
+list-style: none;
+margin-bottom: 10px; }
+
+#about ul.about-info li span {
+width: calc(100% - 130px);
+font-weight: 600;
+color: #3a677c; }
+
+#about ul.about-info li span:first-child {
+font-weight: 600;
+color: #000000;
+width: 130px; }
+
+#about .my-interest 
+{
+margin-top: 30px; 
+}
+
+#about .my-interest .interest-wrap {
+width: 25%;
+border-left: 2px solid skyblue;
+padding-left: 10px; }
+
+@media (max-width: 1199.98px) {
+#about .my-interest .interest-wrap {
+width: 50%;
+float: left;
+margin-bottom: 10px; } }
+#about .my-interest .interest-wrap .icon {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background: rgb(40, 146, 189); }
+
+#about .my-interest .interest-wrap .icon span {
+color: #000000;
+font-size: 18px; }
+
+#about .my-interest .interest-wrap .text {
+font-weight: 600;
+color: #000000;
+padding-left: 5px; }
 
 
 
@@ -353,47 +379,47 @@
 }
 
 .accordion-body{
-                  position: relative;
-                  border:  none !important;
-                  border-left: 1px solid #307cd4 !important;
-                }
-                .accordion-body::before{
-                  content: "";
-                  position: absolute;
-                  width: 16px;
-                  height: 16px;
-                  border-radius: 50px;
-                  left: -9px;
-                  top: 0;
-                  background: #fff;
-                  border: 2px solid #307cd4;
-                }
-                .accordion-body::after{
-                  content: "";
-                  position: absolute;
-                  width: 16px;
-                  height: 16px;
-                  border-radius: 50px;
-                  left: -9px;
-                  /* top: 0; */
-                  background: #fff;
-                  border: 2px solid #307cd4;
-                }
-                .accordion-item{
-                  border: none !important;
-                }
-                
-                .accordion-item .accordion-button{
-                    outline: none !important;
-                    color: black !important;
-                    box-shadow: none !important;
-                    background: linear-gradient(rgb(221, 221, 221),rgb(241, 241, 241));
-                }
+position: relative;
+border:  none !important;
+border-left: 1px solid #307cd4 !important;
+}
+.accordion-body::before{
+content: "";
+position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 50px;
+left: -9px;
+top: 0;
+background: #fff;
+border: 2px solid #307cd4;
+}
+.accordion-body::after{
+content: "";
+position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 50px;
+left: -9px;
+/* top: 0; */
+background: #fff;
+border: 2px solid #307cd4;
+}
+.accordion-item{
+border: none !important;
+}
 
-                .w-10{
-                  width: 100px !important;
-                  padding-left: 10px !important;
-                }
+.accordion-item .accordion-button{
+outline: none !important;
+color: black !important;
+box-shadow: none !important;
+background: linear-gradient(rgb(221, 221, 221),rgb(241, 241, 241));
+}
+
+.w-10{
+width: 100px !important;
+padding-left: 10px !important;
+}
 
    </style>
 </head>
@@ -476,22 +502,31 @@
 
 <!-- === Home Section =======  -->
     <section class="section" id="about">
-      <div class="container">
+      <div class="container" style="margin-top: -60px !important;" data-aos="fade-up">
 
-        <div class="row">
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="">
-            <div class="feature-1 text-center">
-              <img src="assets/img/pic41.jpg" alt="Image" class="" style="width: 100%;" data-aos="fade-up">
-            </div>
+        <div class="row ps-2 pe-2">
+          <div class="col-md-6 mb-2"  data-aos-delay="">
+              <img src="assets/img/pic41.jpg" alt="Image" class="border" style="width: 100%;"  data-aos="fade-up">
           </div>
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="row text-start mb-0">
+          <div class="col-md-6 border p-4 pt-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="row text-start mb-0 about-heading">
               <div class="col-md-7" data-aos="fade-up">
-                <h2 class="section-heading">About Me</h2>
+                <h2 class="section-heading" style="font-size: 30px !important;">About Me</h2>
               </div>
             </div>
-            <div class="feature-1">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+            <div class="">
+              <p class="text-black-50" style="text-align: justify;color: #3f3f3f !important;">I am a seasoned developer with 4 years of experience in building software applications, 
+                both independently and as a member of a team. My technical expertise includes proficiency 
+                in a range of programming languages, including Java, Python, and C#. I am well-versed in 
+                software development methodologies such as Agile and Scrum, and have experience working in 
+                both Waterfall and Agile environments. </p>
+                
+              <p class="text-black-50" style="text-align: justify;color: #3f3f3f !important;">  Throughout my career, I have worked on a variety of projects, ranging from small, 
+                single-purpose applications to large, complex enterprise systems. I have a proven
+                 track record of delivering high quality code on-time and within budget. I am also 
+                 comfortable working with different technologies and platforms, including mobile 
+                 development and web development. </p>
+                
               <ul class="about-info mt-2">
                 <li class="d-flex"><span>Name:</span> <span>Melos Simeneh Mulu</span></li>
                 <li class="d-flex"><span>Date of birth:</span> <span>January 07, 1995</span></li>
@@ -511,7 +546,7 @@
                 </div>
                 <div class="interest-wrap d-flex align-items-center">
                   <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="bx bx-football text-white"></span>
+                    <span class="bi-globe text-white"></span>
                   </div>
                   <div class="text">Sports</div>
                 </div>
@@ -580,7 +615,7 @@
     
       <div class="container">
         <div class="accordion accordion-flush" id="accordionExample">
-          <div class="accordion-item">
+          <div class="accordion-item" data-aos="fade-right">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -595,7 +630,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div class="accordion-item" data-aos="fade-right" data-aos-delay="100">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -610,7 +645,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div class="accordion-item"data-aos="fade-right" data-aos-delay="200">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -672,10 +707,10 @@
 
   <section class="section mt-0" style="margin-top: -90px !important;">
 
-    <div class="container">
+    <div class="container" >
 
       <div class="accordion" id="accordionExample1">
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up">
           <h2 class="accordion-header" id="headingOne1">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
             data-bs-target="#collapseOne1"
@@ -691,7 +726,7 @@
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
           <h2 class="accordion-header" id="headingTwo1">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
             data-bs-target="#collapseTwo1" 
@@ -707,7 +742,7 @@
           </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
           <h2 class="accordion-header" id="headingThree1">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
              data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
@@ -1057,7 +1092,7 @@
               </div>
             </a>
             <div class="work-content">
-              <p class="text-black-50">Pool Service Management System</p>
+              <p class="text-black-50">Job Application System</p>
             </div>
           </div>
         </div>
@@ -1110,11 +1145,16 @@
       <div class="container">
 
         <div class="row justify-content-center">
+
           <div class="feature-1 col-md-6 border shadow p-4 text-center" data-aos="fade-up">
             <div class="wrap-icon icon-1 ">
               <i class="bi bi-person-lines-fill"></i>
             </div>
+
             <ul class="list-unstyled text-start text-black ps-3">
+              <li>
+                <h5 class="mb-1"><strong>Want to contact me?</strong></h5>
+                <p class="text-black-50">Always feel free to contact & Hire me.</p></li>
               <li class="mb-3">
                 <strong class="d-block mb-1"><i class="bi bi-geo-alt"></i> Address</strong>
                 <a href="https://goo.gl/maps/xfmX4XbdKjDXWqF89" target="_blank">Addis Ababa, Ethiopia</a>
