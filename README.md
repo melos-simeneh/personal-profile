@@ -1,4 +1,3 @@
 # Personal Profile
 
-## Link
-<a href="https://melos-simeneh.github.io/personal-profile/" target="_blank">Demo</a>
+You can see my portfolio by click this link <a href="https://melos-simeneh.github.io/personal-profile/" target="_blank">Demo</a>
