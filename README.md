@@ -9,7 +9,7 @@ This portfolio system provides comprehensive information about my educational ba
 To explore my portfolio, simply click on the following link 👉:<a href="https://melos-simeneh.github.io/personal-profile/" target="_blank">Personal Portfolio ↗</a>. It will open in a new tab, allowing you to seamlessly navigate through the pages and sections.
 Features and Sections
 
-    <b>About Me</b>: Get to know me better with a brief introduction and an overview of my professional journey.
+    **About Me**: Get to know me better with a brief introduction and an overview of my professional journey.
     ### Education: Discover my educational qualifications, including degrees, certifications, and relevant courses.
     ### Experience: Explore my professional experience, highlighting key roles, responsibilities, and notable projects.
     ### Skills: Browse through my technical skills, encompassing programming languages, frameworks, methodologies, and more.
