@@ -1,8 +1,4 @@
 # Personal Profile
-This system is a protfolio that describes my educational and work experience
-You can see this project(my portfolio) by click this link 👉 
-
-# Personal Profile
 
 Welcome to my personal portfolio!
 ## Overview
