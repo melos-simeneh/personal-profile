@@ -6,7 +6,7 @@ Welcome to my personal portfolio!
 This portfolio system provides comprehensive information about my educational background, professional experience, and technical skills. It serves as a platform to showcase my achievements, projects, and contributions in the field of software development.
 ## Accessing the Portfolio
 
-To explore my portfolio, simply click on the following link 👉:<a href="https://melos-simeneh.github.io/personal-profile/" target="_blank">Personal Portfolio ↗</a>. It will open in a new tab, allowing you to seamlessly navigate through the pages and sections.
+To explore my portfolio, simply click on the following link 👉: <a href="https://melos-simeneh.github.io/personal-profile/" target="_blank">Personal Portfolio ↗</a>. It will open in a new tab, allowing you to seamlessly navigate through the pages and sections.
 Features and Sections
 - ***About Me***: *Get to know me better with a brief introduction and an overview of my professional journey.*
 - ***Education***: *Discover my educational qualifications, including degrees, certifications, and relevant courses.*
